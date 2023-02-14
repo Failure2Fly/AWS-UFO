@@ -1,0 +1,47 @@
+.navbar {
+    position: absolute;
+    left: auto;
+    height: 100%;
+    z-index: 1;
+    width: 400px;
+    margin-left: -350px;
+    background-color: #07393C;
+    transition: margin-left 1s;
+}
+.nav-title {
+    color: white;
+    font-family: 'Rubik Moonrocks', serif !important; 
+    font-size: 42px;
+}
+
+.navbar:hover {
+    margin-left: 0px;
+}
+.navbar form p {
+    color: White;
+}
+
+
+.login {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50px;
+    width: 150px;
+    background-color: #07393C; 
+    z-index: 1;
+}
+.login-title{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
