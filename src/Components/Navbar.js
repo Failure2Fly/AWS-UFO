@@ -10,7 +10,7 @@ function Navbar() {
       <Search/>
     </div>
     <div className="login">
-      <p className="login-title">Login</p>
+      <button className="login-title">Login</button>
     </div>
   </>
   );
