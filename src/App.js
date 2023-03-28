@@ -5,19 +5,10 @@ import Fetch from "./Components/Fetch";
 import MyMap from "./Components/MapContainer";
 import './CSS/navbar.css';
 import './App.css';
-import logo from "./logo.svg";
 import "@aws-amplify/ui-react/styles.css";
-import {
-  withAuthenticator,
-  Button,
-  Heading,
-  Image,
-  View,
-  Card,
-} from "@aws-amplify/ui-react";
 
 function App() {
-  // {signOut }
+
   // const [data, setData] = useState([]);
   // const [ufoDetails, setUfoDetails] = useState([]);
 
@@ -53,24 +44,8 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Card>
-        <Heading level={1}>We now have Auth!</Heading>
-      </Card>
-      <Button onClick={signOut}>Sign Out</Button> */}
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+      {}
+      {}
       <Navbar/>
       <MyMap/>
       <Fetch/>
@@ -84,5 +59,5 @@ function App() {
     </div>
   );
 }
-// withAuthenticator
+
 export default  App;
